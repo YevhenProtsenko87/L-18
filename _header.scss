@@ -1,0 +1,32 @@
+.header {
+    @include flex (column, flex-start, center);
+    background-color: black;
+    border-radius: 24px;
+    width: 132px;
+    height: 825px;
+    position: absolute;
+    left: 32.34px;
+    top: 24.02px;
+    box-shadow: 9px 11px 20px 0px black;
+
+    &__logo {
+        font-size: 64px;
+        color: white;
+        font-weight: 800;
+        margin: 15px;
+    }
+
+    &__icon {
+        height: 400px;
+        @include flex (column, space-between, center);
+        margin-top: 53px;
+    }
+}
+
+.icon_size {
+    width: 26px;
+
+    &_2 {
+        margin-top: 170px;
+    }
+}
